@@ -1,69 +1,71 @@
-# COVID-19 Data Analysis & Prediction
+# COVID-19 Data Analysis & Prediction  
 
-## 📌 Project Overview
-This project focuses on analyzing COVID-19 data and predicting recovery outcomes using **Exploratory Data Analysis (EDA)** and **Machine Learning** techniques. The main goal is to understand the patterns in the data, clean and preprocess it, visualize key trends, and finally build a predictive model to classify recovery levels.
-
----
-
-## 🎯 Purpose of the Project
-- To perform **Exploratory Data Analysis (EDA)** on COVID-19 datasets.  
-- To understand the impact of new cases, deaths, and recoveries.  
-- To classify recovery outcomes into categories (Low, Medium, High).  
-- To apply **Machine Learning (Random Forest Classifier)** for predicting recovery patterns.  
-- To evaluate model performance using metrics like accuracy, confusion matrix, and classification report.  
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)  
+![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)  
+![Accuracy](https://img.shields.io/badge/Accuracy-95%25%2B-brightgreen)  
 
 ---
 
-## 📂 Workflow
-1. **Data Import & Cleaning**  
-   - Loaded Excel-based COVID-19 dataset.  
-   - Handled missing values and ensured proper data types.  
-
-2. **Exploratory Data Analysis (EDA)**  
-   - Descriptive statistics (mean, median, correlations).  
-   - Data visualization using Matplotlib & Seaborn.  
-   - Identified trends in new cases, deaths, and recoveries.  
-
-3. **Feature Engineering**  
-   - Created a new categorical feature `Recovery_Class` (Low, Medium, High).  
-   - Transformed raw data into meaningful features for model building.  
-
-4. **Machine Learning Model**  
-   - Built a **Random Forest Classifier** to predict recovery outcomes.  
-   - Trained and tested the model with dataset split (train/test).  
-   - Achieved **95%+ accuracy** on test data. 🚀  
-
-5. **Model Evaluation**  
-   - Evaluated using confusion matrix & classification report.  
-   - Precision, Recall, F1-Score analyzed for model fairness.  
+## 📌 Project Overview  
+This project focuses on analyzing COVID-19 data and predicting recovery outcomes using **Exploratory Data Analysis (EDA)** and **Machine Learning** techniques. The main goal is to clean and preprocess data, visualize key trends, and finally build a predictive model to classify recovery levels with high accuracy.  
 
 ---
 
-## 🛠 Tools & Technologies Used
-- **Programming Language**: Python  
+## 🎯 Purpose of the Project  
+- Perform **EDA** on COVID-19 datasets.  
+- Understand the impact of new cases, deaths, and recoveries.  
+- Classify recovery outcomes into categories (Low, Medium, High).  
+- Apply **Random Forest Classifier** for prediction.  
+- Evaluate performance with accuracy, confusion matrix & classification report.  
+
+---
+
+## 📂 Workflow  
+1. **Data Import & Cleaning** – Loaded Excel dataset, handled missing values.  
+2. **EDA** – Descriptive stats, correlations, visualizations.  
+3. **Feature Engineering** – Created `Recovery_Class` (Low, Medium, High).  
+4. **Model Building** – Random Forest Classifier trained & tested.  
+5. **Evaluation** – Achieved **95%+ accuracy**, confusion matrix & classification report.  
+
+---
+
+## 📊 Insights from the Project  
+- Strong correlation between **new cases & deaths**.  
+- Recovery outcomes vary with **daily case trends**.  
+- ML helps in **early prediction** of recovery categories.  
+
+---
+
+## 🛠 Tools & Technologies Used  
+- **Language**: Python  
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
 - **Environment**: Jupyter Notebook  
 
 ---
 
-## 📊 Results
+## 📑 Dataset Information  
+- COVID-19 dataset in **Excel format**.  
+- Columns included: *New Cases, New Deaths, New Recoveries, Active Cases*.  
+- Preprocessing applied before model training.  
+
+---
+
+## 📊 Results  
 - Achieved **95%+ accuracy** in predicting recovery outcomes.  
-- Gained insights into COVID-19 recovery patterns.  
-- Built a structured workflow combining **EDA + Machine Learning**.  
+- Built an ML workflow combining **EDA + Random Forest**.  
+- Extracted valuable insights about recovery patterns.  
 
 ---
 
-## 📌 Project Name
-**COVID-19 Data Analysis & Recovery Prediction using Machine Learning**
+## 🚀 Future Enhancements  
+- Use **larger datasets** for better generalization.  
+- Apply **advanced models** like XGBoost, Neural Networks.  
+- Create a **Streamlit/Power BI dashboard** for live analysis.  
+- Automate predictions with **real-time COVID-19 APIs**.  
 
 ---
 
-## 🚀 Future Enhancements
-- Use larger datasets for better generalization.  
-- Apply other ML models (XGBoost, Neural Networks) for improved performance.  
-- Automate data updates using live COVID-19 APIs.  
-
----
 
 ## 👩‍💻 Author
 **Harinisri S**  
