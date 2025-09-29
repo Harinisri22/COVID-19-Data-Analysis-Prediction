@@ -1,4 +1,4 @@
-# COVID-19 Data Analysis and Prediction using Machine Learning
+# COVID-19 Data Analysis With Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)  
