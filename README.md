@@ -24,7 +24,7 @@ It covers the full workflow—**data cleaning ➜ visualization ➜ prediction �
 ## 📂 Workflow  
 1. **Data Import & Cleaning** – Loaded the Indian COVID-19 dataset, fixed negative values, converted dates.  
 2. **EDA** – Correlation heatmaps, daily/monthly trends, top-state analysis, death vs. recovery comparisons.  
-3. **Feature Engineering** – Added 'Active Cases', 'Month', 'Day'. 
+3.**Feature Engineering** – Added `Active Cases`, `Month`, `Day`. 
 4. **Model Building** –  
    - Train/Test split: 80/20  
    - Models: Random Forest, Gradient Boosting, Linear Regression  
