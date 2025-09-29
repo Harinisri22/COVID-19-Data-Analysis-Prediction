@@ -2,73 +2,76 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)  
-![ML](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)  
-![Accuracy](https://img.shields.io/badge/Accuracy-95%25%2B-brightgreen)  
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest%20%7C%20Gradient%20Boosting-green)  
+![Accuracy](https://img.shields.io/badge/R²-~95%25-brightgreen)  
 
 ---
 
 ## 📌 Project Overview  
-This project focuses on analyzing COVID-19 data and predicting recovery outcomes using **Exploratory Data Analysis (EDA)** and **Machine Learning** techniques. The main goal is to clean and preprocess data, visualize key trends, and finally build a predictive model to classify recovery levels with high accuracy.  
+This project analyzes **COVID-19 case trends across Indian States/UTs** and predicts future case counts using **Exploratory Data Analysis (EDA)** and multiple **Machine Learning** models.  
+It covers the full workflow—**data cleaning ➜ visualization ➜ prediction ➜ insights**.
 
 ---
 
 ## 🎯 Purpose of the Project  
-- Perform **EDA** on COVID-19 datasets.  
-- Understand the impact of new cases, deaths, and recoveries.  
-- Classify recovery outcomes into categories (Low, Medium, High).  
-- Apply **Random Forest Classifier** for prediction.  
-- Evaluate performance with accuracy, confusion matrix & classification report.  
+- Explore and visualize **daily trends** of confirmed, recovered, and death cases.  
+- Create new features like **Active Cases, Month, Day** for deeper insights.  
+- Predict **Total Cases, New Cases, and Active Cases** using ML models.  
+- Compare **Random Forest**, **Gradient Boosting**, and **Linear Regression** based on R², MAE, and MSE.  
 
 ---
 
 ## 📂 Workflow  
-1. **Data Import & Cleaning** – Loaded Excel dataset, handled missing values.  
-2. **EDA** – Descriptive stats, correlations, visualizations.  
-3. **Feature Engineering** – Created `Recovery_Class` (Low, Medium, High).  
-4. **Model Building** – Random Forest Classifier trained & tested.  
-5. **Evaluation** – Achieved **95%+ accuracy**, confusion matrix & classification report.  
+1. **Data Import & Cleaning** – Loaded the Indian COVID-19 dataset, fixed negative values, converted dates.  
+2. **EDA** – Correlation heatmaps, daily/monthly trends, top-state analysis, death vs. recovery comparisons.  
+3. **Feature Engineering** – Added `Active Cases`, `Month`, `Day`.  
+4. **Model Building** –  
+   - Train/Test split: 80/20  
+   - Models: Random Forest, Gradient Boosting, Linear Regression  
+   - Preprocessing: Label Encoding & Standard Scaling  
+5. **Evaluation** – Calculated **MAE**, **MSE**, and **R² Score**; selected the best model automatically.
 
 ---
 
-## 📊 Insights from the Project  
-- Strong correlation between **new cases & deaths**.  
-- Recovery outcomes vary with **daily case trends**.  
-- ML helps in **early prediction** of recovery categories.  
+## 📊 Key Insights  
+- Strong correlation among **Total Cases, Deaths, and Recoveries**.  
+- Clear **time-based waves** of infection.  
+- **Random Forest** and **Gradient Boosting** achieved the best predictive performance.  
 
 ---
 
 ## 🛠 Tools & Technologies Used  
 - **Language**: Python  
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **Environment**: Jupyter Notebook  
+- **Environment**: Jupyter Notebook / VS Code  
 
 ---
 
 ## 📑 Dataset Information  
-- COVID-19 dataset in **Excel format**.  
-- Columns included: *New Cases, New Deaths, New Recoveries, Active Cases*.  
-- Preprocessing applied before model training.  
+- Daily COVID-19 records of **Indian States/UTs**.  
+- Columns include: *Date, State/UT, Total Confirmed, Deaths, Recovered, New Cases, New Deaths, New Recovered*.  
+- Data cleaned and enriched with additional features before modeling.  
 
 ---
 
 ## 📊 Results  
-- Achieved **95%+ accuracy** in predicting recovery outcomes.  
-- Built an ML workflow combining **EDA + Random Forest**.  
-- Extracted valuable insights about recovery patterns.  
+- Achieved **high R² scores (~95%)** for predicting Total, New, and Active Cases.  
+- Built a **complete ML pipeline** from raw data to actionable insights.  
 
 ---
 
 ## 🚀 Future Enhancements  
-- Use **larger datasets** for better generalization.  
-- Apply **advanced models** like XGBoost, Neural Networks.  
-- Create a **Streamlit/Power BI dashboard** for live analysis.  
-- Automate predictions with **real-time COVID-19 APIs**.  
+- Integrate **real-time COVID-19 APIs** for live predictions.  
+- Experiment with **XGBoost**, **Neural Networks**, or **LSTM** for time-series forecasting.  
+- Build a **Streamlit dashboard** for interactive visualization.  
+- Extend to **global datasets** for wider applicability.  
 
 ---
-
 
 ## 👩‍💻 Author
 **Harinisri S**  
 - 📧 Email: harinisrioff@gmail.com  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/harinisri-s)  
+- 🔗 [GitHub](https://github.com/Harinisri22)  
+s://www.linkedin.com/in/harinisri-s)  
 - 🔗 [GitHub](https://github.com/Harinisri22)  
