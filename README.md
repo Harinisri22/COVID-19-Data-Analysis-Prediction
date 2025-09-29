@@ -43,7 +43,7 @@ It covers the full workflow—**data cleaning ➜ visualization ➜ prediction �
 ## 🛠 Tools & Technologies Used  
 - **Language**: Python  
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **Environment**: Jupyter Notebook / VS Code  
+- **Environment**: Jupyter Notebook. 
 
 ---
 
