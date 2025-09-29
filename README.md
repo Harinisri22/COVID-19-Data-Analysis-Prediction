@@ -60,14 +60,6 @@ It covers the full workflow—**data cleaning ➜ visualization ➜ prediction �
 
 ---
 
-## 🚀 Future Enhancements  
-- Integrate **real-time COVID-19 APIs** for live predictions.  
-- Experiment with **XGBoost**, **Neural Networks**, or **LSTM** for time-series forecasting.  
-- Build a **Streamlit dashboard** for interactive visualization.  
-- Extend to **global datasets** for wider applicability.  
-
----
-
 ## 👩‍💻 Author
 **Harinisri S**  
 - 📧 Email: harinisrioff@gmail.com  
