@@ -1,75 +1,75 @@
-# COVID-19 Data Analysis and Prediction using Machine Learning
+# COVID-19 Data Analysis & Prediction  
 
-## 📌 Project Summary
-A complete data-science workflow that analyzes COVID-19 trends across Indian States/UTs and predicts future cases using multiple machine-learning models.
-
----
-
-## 🗂️ Dataset
-* Daily COVID-19 records for all Indian States/UTs  
-* Key columns: **Date**, **State/UT**, **Total Confirmed**, **Deaths**, **Recovered**, **New Cases**, **New Deaths**, **New Recovered**  
-* Covers a continuous time period with daily updates
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)  
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest%20%7C%20Gradient%20Boosting-green)  
+![Accuracy](https://img.shields.io/badge/R²-~95%25-brightgreen)  
 
 ---
 
-## 🎯 Project Goals
-* **Analyze** trends in confirmed, recovered, death, and active cases  
-* **Predict** Total Cases, New Cases, and Active Cases with high accuracy (target ≥ 95 % R²)
+## 📌 Project Overview  
+This project analyzes **COVID-19 case trends across Indian States/UTs** and predicts future case counts using **Exploratory Data Analysis (EDA)** and multiple **Machine Learning** models.  
+It covers the full workflow—**data cleaning ➜ visualization ➜ prediction ➜ insights**.
 
 ---
 
-## 🛠️ Steps & Workflow
-1. **Data Exploration**  
-   * Checked dataset shape, info, missing values, duplicates  
-2. **Data Cleaning & Feature Engineering**  
-   * Fixed negative values  
-   * Converted `Date` column to datetime  
-   * Created new features: `Active Cases`, `Month`, `Day`  
-3. **Exploratory Data Analysis (EDA)**  
-   * Correlation heatmap  
-   * Daily & monthly trend graphs  
-   * Top states by cases  
-   * Death vs. recovery comparisons, death-rate by state, active-case distribution  
-4. **Machine Learning**  
-   * Train/test split (80 % / 20 %)  
-   * Models: **Random Forest**, **Gradient Boosting**, **Linear Regression**  
-   * Preprocessing: Label Encoding, Standard Scaling  
-   * Metrics: **MAE**, **MSE**, **R² Score**  
-   * Automatic best-model selection  
-5. **Results & Insights**  
-   * Strong correlation between total cases, deaths, and recoveries  
-   * Clear temporal trends (“waves”)  
-   * Random Forest and Gradient Boosting delivered best predictive performance  
+## 🎯 Purpose of the Project  
+- Explore and visualize **daily trends** of confirmed, recovered, and death cases.  
+- Create new features like **Active Cases, Month, Day** for deeper insights.  
+- Predict **Total Cases, New Cases, and Active Cases** using ML models.  
+- Compare **Random Forest**, **Gradient Boosting**, and **Linear Regression** based on R², MAE, and MSE.  
 
 ---
 
-## 🧩 Key Findings
-* States such as Maharashtra and Tamil Nadu showed the highest case counts  
-* Time-series plots revealed distinct pandemic waves  
-* Achieved strong predictive accuracy (close to 95 % R² despite real-world noise)
+## 📂 Workflow  
+1. **Data Import & Cleaning** – Loaded the Indian COVID-19 dataset, fixed negative values, converted dates.  
+2. **EDA** – Correlation heatmaps, daily/monthly trends, top-state analysis, death vs. recovery comparisons.  
+3. **Feature Engineering** – Added `Active Cases`, `Month`, `Day`.  
+4. **Model Building** –  
+   - Train/Test split: 80/20  
+   - Models: Random Forest, Gradient Boosting, Linear Regression  
+   - Preprocessing: Label Encoding & Standard Scaling  
+5. **Evaluation** – Calculated **MAE**, **MSE**, and **R² Score**; selected the best model automatically.
 
 ---
 
-## 🛡️ Tools & Libraries
-* **Language/IDE**: Python 3.x, Jupyter Notebook / VS Code  
-* **Core Libraries**:  
-  `pandas`, `numpy`, `matplotlib`, `seaborn`  
-* **Machine Learning**:  
-  `scikit-learn` (RandomForestRegressor, GradientBoostingRegressor, LinearRegression, train_test_split, LabelEncoder, StandardScaler, metrics)
+## 📊 Key Insights  
+- Strong correlation among **Total Cases, Deaths, and Recoveries**.  
+- Clear **time-based waves** of infection.  
+- **Random Forest** and **Gradient Boosting** achieved the best predictive performance.  
 
 ---
 
-## 📈 Skills Demonstrated
-* Data Cleaning & Preprocessing  
-* Feature Engineering  
-* Data Visualization & Insight Generation  
-* Machine Learning Model Building & Evaluation  
-* Interpretation of Real-World Noisy Data
+## 🛠 Tools & Technologies Used  
+- **Language**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
+- **Environment**: Jupyter Notebook / VS Code  
 
 ---
 
-## 🚀 How to Run
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+## 📑 Dataset Information  
+- Daily COVID-19 records of **Indian States/UTs**.  
+- Columns include: *Date, State/UT, Total Confirmed, Deaths, Recovered, New Cases, New Deaths, New Recovered*.  
+- Data cleaned and enriched with additional features before modeling.  
+
+---
+
+## 📊 Results  
+- Achieved **high R² scores (~95%)** for predicting Total, New, and Active Cases.  
+- Built a **complete ML pipeline** from raw data to actionable insights.  
+
+---
+
+## 🚀 Future Enhancements  
+- Integrate **real-time COVID-19 APIs** for live predictions.  
+- Experiment with **XGBoost**, **Neural Networks**, or **LSTM** for time-series forecasting.  
+- Build a **Streamlit dashboard** for interactive visualization.  
+- Extend to **global datasets** for wider applicability.  
+
+---
+
+## 👩‍💻 Author
+**Harinisri S**  
+- 📧 Email: harinisrioff@gmail.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/harinisri-s)  
+- 🔗 [GitHub](https://github.com/Harinisri22)  
